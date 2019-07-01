@@ -20,7 +20,7 @@ Here is how :
 
 ## License
 
-RuangAdmin is an open source and developed by **[indriiunanda](https://indrijunanda.gitlab.io/) that is licensed under [MIT](http://opensource.org/licenses/MIT)**
+RuangAdmin is an open source and developed by **[indriiunanda](https://indrijunanda.gitlab.io/)** that is licensed under **[MIT](http://opensource.org/licenses/MIT)**
 
 -------------------
 
