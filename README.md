@@ -10,6 +10,18 @@ RuangAdmin - Free Admin Control Panel Themes Based on Bootstrap 4
 
 !["RuangAdmin Screenshot"](https://indrijunanda.github.io/RuangAdmin/img/screenshot/ss1.png "RuangAdmin Screenshot")
 
+##Contribution 
+
+Here is how : 
+
+- Fork the repository
+- Clone with ```https://github.com/indrijunanda/RuangAdmin.git```
+- Or Download zip
+
+##License
+
+RuangAdmin is an open source and developed by [IndriJunanda](https://indrijunanda.gitlab.io/) that is licensed under [MIT](http://opensource.org/licenses/MIT)
+
 -------------------
 
 ### Cheers Up!
