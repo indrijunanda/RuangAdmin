@@ -15,7 +15,7 @@ RuangAdmin - Free Admin Control Panel Themes Based on Bootstrap 4
 Here is how : 
 
 - Fork the repository
-- Clone with ```https://github.com/indrijunanda/RuangAdmin.git```
+- Clone with ```git clone https://github.com/indrijunanda/RuangAdmin.git```
 - Or Download zip
 
 ## License
