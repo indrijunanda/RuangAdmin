@@ -30,4 +30,4 @@ RuangAdmin is an open source and developed by **[indrijunanda](https://indrijuna
 
 
 
-developed by [`indrijunanda`](https://indrijunanda.gitlab.io/)
+developed by **[`indrijunanda`](https://indrijunanda.gitlab.io/)**
