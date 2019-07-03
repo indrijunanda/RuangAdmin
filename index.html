@@ -14,7 +14,7 @@
   <link href="css/ruang-admin.min.css" rel="stylesheet">
 </head>
 
-<body id="page-top">  
+<body id="page-top">
   <div id="wrapper">
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -53,10 +53,10 @@
         </div>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="forms.html">
-            <i class="fab fa-fw fa-wpforms"></i>
-            <span>Forms</span>
-          </a>
+        <a class="nav-link" href="forms.html">
+          <i class="fab fa-fw fa-wpforms"></i>
+          <span>Forms</span>
+        </a>
       </li>
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable" aria-expanded="true"
@@ -344,15 +344,15 @@
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-uppercase mb-1">Earnings (Annual)</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Sales</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">650</div>
                       <div class="mt-2 mb-0 text-muted text-xs">
                         <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
                         <span>Since last years</span>
                       </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-2x text-success"></i>
+                      <i class="fas fa-shopping-cart fa-2x text-success"></i>
                     </div>
                   </div>
                 </div>
@@ -403,7 +403,7 @@
             <div class="col-xl-8 col-lg-7">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Monthly Recap Report</h6>
                   <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                       aria-haspopup="true" aria-expanded="false">
@@ -430,37 +430,72 @@
             <div class="col-xl-4 col-lg-5">
               <div class="card mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Products Sold</h6>
                   <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    <a class="dropdown-toggle btn btn-primary btn-sm" href="#" role="button" id="dropdownMenuLink"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Month <i class="fas fa-chevron-down"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                       aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-header">Select Periode</div>
+                      <a class="dropdown-item" href="#">Today</a>
+                      <a class="dropdown-item" href="#">Week</a>
+                      <a class="dropdown-item active" href="#">Month</a>
+                      <a class="dropdown-item" href="#">This Year</a>
                     </div>
                   </div>
                 </div>
                 <div class="card-body">
-                  <div class="chart-pie pt-4 pb-2">
-                    <canvas id="myPieChart"></canvas>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Oblong T-Shirt
+                      <div class="small float-right"><b>600 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                   </div>
-                  <div class="mt-4 text-center small">
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> Direct
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-success"></i> Social
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-info"></i> Referral
-                    </span>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Gundam 90'Editions
+                      <div class="small float-right"><b>500 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                   </div>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Rounded Hat
+                      <div class="small float-right"><b>455 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 55%" aria-valuenow="55"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Remote Control Car Racing
+                      <div class="small float-right"><b>400 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Remote Control Car Racing
+                      <div class="small float-right"><b>200 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>                                
+                <div class="card-footer text-center">                  
+                  <a class="m-0 small text-primary card-link" href="#">View More <i
+                      class="fas fa-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -563,7 +598,8 @@
                   </div>
                   <div class="card-footer text-center">
                     <a class="m-0 small text-primary card-link" href="#">View More <i
-                        class="fas fa-chevron-right"></i></a></div>
+                        class="fas fa-chevron-right"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -572,8 +608,9 @@
 
           <div class="row">
             <div class="col-lg-12 text-center">
-              <p>Do you like this template ? you can download from <a href="https://github.com/indrijunanda/RuangAdmin" class="btn btn-primary btn-sm" target="_blank"><i class="fab fa-fw fa-github"></i>&nbsp;GitHub</a></p>
-            </div>            
+              <p>Do you like this template ? you can download from <a href="https://github.com/indrijunanda/RuangAdmin"
+                  class="btn btn-primary btn-sm" target="_blank"><i class="fab fa-fw fa-github"></i>&nbsp;GitHub</a></p>
+            </div>
           </div>
 
         </div>
@@ -583,8 +620,8 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>copyright &copy; 2019 - developed by 
-              <b><a href="https://indrijunanda.gitlab.io/" target="_blank">indrijunanda</a></b> 
+            <span>copyright &copy; 2019 - developed by
+              <b><a href="https://indrijunanda.gitlab.io/" target="_blank">indrijunanda</a></b>
             </span>
           </div>
         </div>
@@ -597,7 +634,7 @@
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
-  
+
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
