@@ -8,7 +8,7 @@ RuangAdmin - Free Admin Control Panel Themes Based on Bootstrap 4
 
 **You can review on [RuangAdmin - Demo](https://indrijunanda.github.io/RuangAdmin/)**
 
-!["RuangAdmin Screenshot"](https://indrijunanda.github.io/RuangAdmin/img/screenshot/ss2.png "RuangAdmin Screenshot")
+!["RuangAdmin Screenshot"](https://indrijunanda.github.io/RuangAdmin/img/screenshot/ss3.png "RuangAdmin Screenshot")
 
 ## Contribution 
 
