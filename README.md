@@ -22,12 +22,14 @@ Here is how :
 
 RuangAdmin is an open source and developed by **[indrijunanda](https://indrijunanda.gitlab.io/)** that is licensed under **[MIT](http://opensource.org/licenses/MIT)**
 
--------------------
 
+
+-------------------
 ### Cheers Up!
 
 *Happy Developing and Learning* 💪
 
 
 
-developed by **[`indrijunanda`](https://indrijunanda.gitlab.io/)**
+Regards 😁😁
+
