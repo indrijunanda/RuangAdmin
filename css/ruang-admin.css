@@ -27,7 +27,7 @@ a:focus {
 }
 
 #wrapper #content-wrapper {
-  background-color: #F4F5FB;
+  background-color: #FAFDFB;
   width: 100%;
   overflow-x: hidden;
 }
@@ -141,6 +141,7 @@ a:focus {
   -webkit-animation-timing-function: opacity cubic-bezier(0, 1, 0.4, 1);
   animation-timing-function: opacity cubic-bezier(0, 1, 0.4, 1);
 }
+
 
 .bg-gradient-primary {
   background-color: #3f51b5;
@@ -759,6 +760,15 @@ a:focus {
   font-weight: 800;
   font-size: 0.65rem;
   letter-spacing: 0.13rem;
+}
+
+.sidebar .version{
+  text-align: left;
+  /* font-weight: 600; */
+  font-size: 0.6rem;
+  padding: 0 1rem;
+  color: #b7b9cc;
+  letter-spacing: 0.030rem;
 }
   
 .sidebar .sidebar-brand .sidebar-brand-text {

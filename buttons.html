@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="img/logo/logo.png" rel="icon">
-  <title>RuangAdmin - Buttons</title>
+  <title>RuangAdmin - Buttons (Demo Version)</title>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -41,7 +41,8 @@
           <i class="far fa-fw fa-window-maximize"></i>
           <span>Bootstrap UI</span>
         </a>
-        <div id="collapseBootstrap" class="collapse show" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+        <div id="collapseBootstrap" class="collapse show" aria-labelledby="headingBootstrap"
+          data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Bootstrap UI</h6>
             <a class="collapse-item" href="alerts.html">Alerts</a>
@@ -54,10 +55,10 @@
         </div>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="forms.html">
-            <i class="fab fa-fw fa-wpforms"></i>
-            <span>Forms</span>
-          </a>
+        <a class="nav-link" href="forms.html">
+          <i class="fab fa-fw fa-wpforms"></i>
+          <span>Forms</span>
+        </a>
       </li>
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable" aria-expanded="true"
@@ -106,6 +107,9 @@
         </a>
       </li>
       <hr class="sidebar-divider">
+      <div class="version">
+        Beta Version
+      </div>
     </ul>
     <!-- Sidebar -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -310,6 +314,15 @@
 
         <!-- Container Fluid -->
         <div class="container-fluid" id="container-wrapper">
+          <!-- Attention -->
+          <div class="alert alert-primary alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            You are currently using the <b>Beta Version</b> for critics and suggestions, please send it <a href="#"
+              class="alert-link">here</a>
+          </div>
+          <!-- Attention -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Buttons</h1>
             <ol class="breadcrumb">
@@ -448,7 +461,8 @@
                     <code>_variables.scss</code> file and then using the Bootstrap button variant mixin to create a new
                     style, as demonstrated in the <code>_buttons.scss</code> file.</p>
                   <a href="#" class="btn btn-google btn-block"><i class="fab fa-google fa-fw"></i>.btn-google</a>
-                  <a href="#" class="btn btn-facebook btn-block"><i class="fab fa-facebook-f fa-fw"></i>.btn-facebook</a>
+                  <a href="#" class="btn btn-facebook btn-block"><i
+                      class="fab fa-facebook-f fa-fw"></i>.btn-facebook</a>
                 </div>
               </div>
             </div>

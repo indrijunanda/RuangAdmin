@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="img/logo/logo.png" rel="icon">
-  <title>RuangAdmin - Alerts</title>
+  <title>RuangAdmin - Alerts (Demo Version)</title>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -38,7 +38,8 @@
           <i class="far fa-fw fa-window-maximize"></i>
           <span>Bootstrap UI</span>
         </a>
-        <div id="collapseBootstrap" class="collapse show" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+        <div id="collapseBootstrap" class="collapse show" aria-labelledby="headingBootstrap"
+          data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Bootstrap UI</h6>
             <a class="collapse-item active" href="alerts.html">Alerts</a>
@@ -51,10 +52,10 @@
         </div>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="forms.html">
-            <i class="fab fa-fw fa-wpforms"></i>
-            <span>Forms</span>
-          </a>
+        <a class="nav-link" href="forms.html">
+          <i class="fab fa-fw fa-wpforms"></i>
+          <span>Forms</span>
+        </a>
       </li>
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable" aria-expanded="true"
@@ -101,6 +102,9 @@
         </a>
       </li>
       <hr class="sidebar-divider">
+      <div class="version">
+        Beta Version
+      </div>
     </ul>
     <!-- Sidebar -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -302,8 +306,18 @@
           </ul>
         </nav>
         <!-- Topbar -->
+
         <!---Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
+          <!-- Attention -->
+          <div class="alert alert-primary alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            You are currently using the <b>Beta Version</b> for critics and suggestions, please send it <a href="#"
+              class="alert-link">here</a>
+          </div>
+          <!-- Attention -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Alerts</h1>
             <ol class="breadcrumb">
@@ -313,7 +327,7 @@
               <li class="breadcrumb-item">Bootstrap UI</li>
               <li class="breadcrumb-item active" aria-current="page">Alerts</li>
             </ol>
-          </div>          
+          </div>
           <div class="row">
             <!-- Alerts Basic -->
             <div class="col-lg-6">
@@ -405,7 +419,7 @@
                   </div>
                 </div>
               </div>
-            </div>            
+            </div>
             <div class="col-lg-6">
               <!-- Alerts with Icon -->
               <div class="card mb-4">
@@ -472,28 +486,36 @@
                 </div>
                 <div class="card-body">
                   <div class="alert alert-primary" role="alert">
-                    A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if
+                    you like.
                   </div>
                   <div class="alert alert-secondary" role="alert">
-                    A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if
+                    you like.
                   </div>
                   <div class="alert alert-success" role="alert">
-                    A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if
+                    you like.
                   </div>
                   <div class="alert alert-danger" role="alert">
-                    A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if
+                    you like.
                   </div>
                   <div class="alert alert-warning" role="alert">
-                    A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if
+                    you like.
                   </div>
                   <div class="alert alert-info" role="alert">
-                    A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                    like.
                   </div>
                   <div class="alert alert-light" role="alert">
-                    A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                    like.
                   </div>
                   <div class="alert alert-dark" role="alert">
-                    A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                    A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                    like.
                   </div>
                 </div>
               </div>
@@ -508,7 +530,7 @@
                   target="_blank">bootstrap alert documentations.</a>
               </p>
             </div>
-          </div>          
+          </div>
           <!-- More Documentations Link -->
         </div>
         <!---Container Fluid-->
@@ -518,13 +540,13 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>copyright &copy; 2019 - developed by 
+            <span>copyright &copy; 2019 - developed by
               <b><a href="https://indrijunanda.gitlab.io/" target="_blank">indrijunanda</a></b>
             </span>
           </div>
         </div>
       </footer>
-      
+
     </div>
   </div>
   <!-- Scrollto to top -->

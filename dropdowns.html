@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="img/logo/logo.png" rel="icon">
-  <title>RuangAdmin - Dropdowns</title>
+  <title>RuangAdmin - Dropdowns (Demo Version)</title>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -41,7 +41,8 @@
           <i class="far fa-fw fa-window-maximize"></i>
           <span>Bootstrap UI</span>
         </a>
-        <div id="collapseBootstrap" class="collapse show" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+        <div id="collapseBootstrap" class="collapse show" aria-labelledby="headingBootstrap"
+          data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Bootstrap UI</h6>
             <a class="collapse-item" href="alerts.html">Alerts</a>
@@ -54,10 +55,10 @@
         </div>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="forms.html">
-            <i class="fab fa-fw fa-wpforms"></i>
-            <span>Forms</span>
-          </a>
+        <a class="nav-link" href="forms.html">
+          <i class="fab fa-fw fa-wpforms"></i>
+          <span>Forms</span>
+        </a>
       </li>
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable" aria-expanded="true"
@@ -106,6 +107,9 @@
         </a>
       </li>
       <hr class="sidebar-divider">
+      <div class="version">
+        Beta Version
+      </div>
     </ul>
     <!-- Sidebar -->
 
@@ -309,8 +313,17 @@
         </nav>
         <!-- Topbar -->
 
-        <!---Container Fluid-->
+        <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
+          <!-- Attention -->
+          <div class="alert alert-primary alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            You are currently using the <b>Beta Version</b> for critics and suggestions, please send it <a href="#"
+              class="alert-link">here</a>
+          </div>
+          <!-- Attention -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Dropdowns</h1>
             <ol class="breadcrumb">
@@ -328,7 +341,9 @@
                   <h6 class="m-0 font-weight-bold text-primary">Dropdowns Basic</h6>
                 </div>
                 <div class="card-body">
-                  <p> Any single <code class="highlighter-rouge">.btn</code> can be turned into a dropdown toggle with some markup changes. Here’s how you can put them to work with either <code class="highlighter-rouge">&lt;button&gt;</code> elements: </p>
+                  <p> Any single <code class="highlighter-rouge">.btn</code> can be turned into a dropdown toggle with
+                    some markup changes. Here’s how you can put them to work with either <code
+                      class="highlighter-rouge">&lt;button&gt;</code> elements: </p>
                   <div class="dropdown mb-3">
                     <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -343,7 +358,8 @@
                   <!---Dropdown with link-->
                   <p>And with <code class="highlighter-rouge">&lt;a&gt;</code> elements:</p>
                   <div class="dropdown">
-                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown link </a>
+                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown link </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
@@ -691,7 +707,8 @@
                     </div>
                     <div class="col-lg-6">
                       <h6 class="font-weight-bold mt-3">Dropleft</h6>
-                      <p>Trigger dropdown menus above elements by adding <code class="highlighter-rouge">.dropleft</code> to the parent element.</p>
+                      <p>Trigger dropdown menus above elements by adding <code
+                          class="highlighter-rouge">.dropleft</code> to the parent element.</p>
                       <!-- Default dropleft button -->
                       <div class="btn-group dropleft">
                         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
@@ -764,7 +781,7 @@
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Separated link</a>
                     </div>
-                  </div>              
+                  </div>
                 </div>
               </div>
             </div>
@@ -801,4 +818,5 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="js/ruang-admin.min.js"></script>
 </body>
+
 </html>
