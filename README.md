@@ -1,4 +1,4 @@
-# RuangAdmin ( Beta Version )
+# RuangAdmin ( Version 1.0 )
 
 RuangAdmin - Free Admin Control Panel Themes Based on Bootstrap 4
 
@@ -8,7 +8,7 @@ RuangAdmin - Free Admin Control Panel Themes Based on Bootstrap 4
 
 **You can review on [RuangAdmin - Demo](https://indrijunanda.github.io/RuangAdmin/)**
 
-!["RuangAdmin Screenshot"](https://indrijunanda.github.io/RuangAdmin/img/screenshot/ss4.png "RuangAdmin Screenshot")
+!["RuangAdmin Screenshot"](https://indrijunanda.github.io/RuangAdmin/img/screenshot/screenshot_ruangadmin.png "RuangAdmin Screenshot")
 
 ## Contribution 
 
@@ -34,5 +34,5 @@ RuangAdmin is an open source and that is licensed under **[MIT](http://opensourc
 Regards 😁😁
 
 
-*You are currently using the **Beta Version** for critics and suggestions, please send it [here](https://forms.gle/WA7QZBd9KuzqfiCU9)*
+*We hope critics and suggestions from you, please send [here](https://forms.gle/WA7QZBd9KuzqfiCU9)*
 
