@@ -1,4 +1,4 @@
-# RuangAdmin ( Version 1.0 )
+# RuangAdmin
 
 RuangAdmin - Free Admin Control Panel Themes Based on Bootstrap 4
 
