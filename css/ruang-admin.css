@@ -28,7 +28,7 @@ a:focus {
 #wrapper #content-wrapper {
   background-color: #FAFDFB;
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden;  
 }
 
 @media (max-width: 768px) {
@@ -42,6 +42,7 @@ a:focus {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
 }
+
 
 .container,
 .container-fluid,
@@ -622,9 +623,7 @@ a:focus {
 
 .sidebar {
   min-height: 100vh;
-  width: 14rem !important;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
+  width: 14rem !important;  
   background-color: #ffffff !important;
   -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
@@ -633,7 +632,7 @@ a:focus {
 
 .sidebar .nav-item {
   position: relative;
-  margin-bottom: -15px;
+  margin-bottom: -15px;      
 }
 
 .sidebar .nav-item:last-child {
@@ -670,7 +669,7 @@ a:focus {
   border: 0;
   font-weight: 900;
   content: '\f107';
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 5 Free';  
 }
 
 .sidebar .nav-item .nav-link[data-toggle="collapse"].collapsed::after {
@@ -679,7 +678,7 @@ a:focus {
 
 .sidebar .nav-item .collapse {
   position: relative;
-  left: 0;
+  left: 0;  
   z-index: 1;
   top: 0;
   -webkit-animation: none;
@@ -692,7 +691,7 @@ a:focus {
   -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
   transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;    
 }
 
 .sidebar .nav-item .collapsing {
@@ -712,7 +711,7 @@ a:focus {
   padding: .5rem 0;
   min-width: 10rem;
   font-size: 0.85rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem 0;    
 }
 
 .sidebar .nav-item .collapse .collapse-inner .collapse-header,
@@ -797,8 +796,6 @@ a:focus {
   margin: 1rem 0 1rem 0;
 }
 
-/* bug is here */
-
 .sidebar .sidebar-heading {
   text-align: left;
   padding: 0 1rem;
@@ -815,7 +812,6 @@ a:focus {
   letter-spacing: 0.030rem;
 }
 
-/* bug is here */
 
 .sidebar .sidebar-brand .sidebar-brand-text {
   display: inline;
@@ -824,12 +820,13 @@ a:focus {
 .sidebar.toggled {
   overflow: visible;
   width: 6.5rem !important;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  z-index: 1;
 }
 
 .sidebar.toggled .nav-item {
-  margin-bottom: 0px;
+  margin-bottom: 0px;    
 }
 
 
@@ -852,18 +849,18 @@ a:focus {
   -webkit-animation-duration: 200ms;
   animation-duration: 200ms;
   -webkit-animation-timing-function: transform cubic-bezier(0.18, 1.25, 0.4, 1), opacity cubic-bezier(0, 1, 0.4, 1);
-  animation-timing-function: transform cubic-bezier(0.18, 1.25, 0.4, 1), opacity cubic-bezier(0, 1, 0.4, 1);
+  animation-timing-function: transform cubic-bezier(0.18, 1.25, 0.4, 1), opacity cubic-bezier(0, 1, 0.4, 1);  
 }
 
 .sidebar.toggled .nav-item .collapse,
 .sidebar.toggled .nav-item .collapsing {
-  margin: 0;
+  margin: 0;  
 }
 
 .sidebar.toggled .nav-item .collapse .collapse-inner {
   -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
-  border-radius: 0.35rem;
+  border-radius: 0.35rem;    
 }
 
 .sidebar.toggled .nav-item .collapsing {
