@@ -1368,18 +1368,18 @@ a:focus {
 }
 
 .btn-google {
-  color: #fff;
-  background-color: #ea4335;
-  border-color: #fff;
+  color: #434334;
+  background-color: #ffffff;
+  border-color: #bdbdbd;
   -webkit-box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2) !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2) !important;
   border-radius: 0.25rem;
 }
 
 .btn-google:hover {
-  color: #fff;
-  background-color: #e12717;
-  border-color: #e6e6e6;
+  color: #434343;
+  background-color: #f5f5f5;
+  border-color: #434343;
 }
 
 .btn-google:focus,
@@ -1390,17 +1390,17 @@ a:focus {
 
 .btn-google.disabled,
 .btn-google:disabled {
-  color: #fff;
-  background-color: #ea4335;
-  border-color: #fff;
+  color: #434343;
+  background-color: #eeeeee;
+  border-color: #434334;
 }
 
 .btn-google:not(:disabled):not(.disabled):active,
 .btn-google:not(:disabled):not(.disabled).active,
 .show>.btn-google.dropdown-toggle {
-  color: #fff;
-  background-color: #d62516;
-  border-color: #dfdfdf;
+  color: #434334;
+  background-color: #eeeeee;
+  border-color: #434343;
 }
 
 .btn-google:not(:disabled):not(.disabled):active:focus,
