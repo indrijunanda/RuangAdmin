@@ -31,12 +31,6 @@ a:focus {
   overflow-x: hidden;  
 }
 
-@media (max-width: 768px) {
-  #wrapper #content-wrapper {
-    z-index: 2 !important;
-  }
-}
-
 #wrapper #content-wrapper #content {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
