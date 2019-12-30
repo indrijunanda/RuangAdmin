@@ -34,5 +34,4 @@ RuangAdmin is an open source and that is licensed under **[MIT](http://opensourc
 Regards 😁😁
 
 
-*We hope critics and suggestions from you, please send [here](https://forms.gle/WA7QZBd9KuzqfiCU9)*
 
