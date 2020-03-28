@@ -18,6 +18,12 @@ Here is how :
 - Clone with ```git clone https://github.com/indrijunanda/RuangAdmin.git```
 - Or Download zip
 
+
+## Integrated
+
+- **[CodeIgniter](https://github.com/Codeigniter-Template/Ruang-Admin-Template)**
+
+
 ## License
 
 RuangAdmin is an open source and that is licensed under **[MIT](http://opensource.org/licenses/MIT)**
