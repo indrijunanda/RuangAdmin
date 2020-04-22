@@ -4,9 +4,9 @@ RuangAdmin - Free Admin Control Panel Themes Based on Bootstrap 4
 
 -------------------
 
-**RuangAdmin** is responsive admin template. Based on Bootstrap 4 Framework. Highly cusmtomizable and easy to use. 
+**RuangAdmin** is responsive admin template. Based on Bootstrap 4 Framework. Highly customizable and easy to use. 
 
-**You can review on [RuangAdmin - Demo](https://indrijunanda.github.io/RuangAdmin/)**
+**You can review it on [RuangAdmin - Demo](https://indrijunanda.github.io/RuangAdmin/)**
 
 !["RuangAdmin Screenshot"](https://indrijunanda.github.io/RuangAdmin/img/screenshot/ss1.png "RuangAdmin Screenshot")
 
@@ -26,7 +26,7 @@ Here is how :
 
 ## License
 
-RuangAdmin is an open source and that is licensed under **[MIT](http://opensource.org/licenses/MIT)**
+RuangAdmin is an open source and licensed under **[MIT](http://opensource.org/licenses/MIT)**
 
 
 
