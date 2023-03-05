@@ -23,6 +23,7 @@ Here is how :
 
 - **[CodeIgniter](https://github.com/Codeigniter-Template/Ruang-Admin-Template)** by Codeigniter Template
 - **[Laravel](https://github.com/putralangkat97/ruang-admin-laravel-6)** by putralangkat97
+- **[Laravel Starter Kit](https://github.com/superXdev/QAdmin)** by superXdev
 
 
 ## License
