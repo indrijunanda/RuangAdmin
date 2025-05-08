@@ -30,9 +30,15 @@ Here is how :
 
 RuangAdmin is an open source and licensed under **[MIT](http://opensource.org/licenses/MIT)**
 
+---
+
+### Donate
+Want to buy me a Coffee ? 
+
+**[Klik Here](https://trakteer.id/indrijunanda/tip)** Powered by Trakteer
 
 
--------------------
+---
 ### Cheers Up!
 
 *Happy Developing and Learning* 💪
